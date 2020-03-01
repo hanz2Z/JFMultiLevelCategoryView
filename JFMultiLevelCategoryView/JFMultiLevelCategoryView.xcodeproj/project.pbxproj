@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C11EB2D240B88B400EDE379 /* JFMultiLevelCategoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C11EB23240B88B400EDE379 /* JFMultiLevelCategoryView.framework */; };
+		3C11EB32240B88B500EDE379 /* JFMultiLevelCategoryViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11EB31240B88B500EDE379 /* JFMultiLevelCategoryViewTests.m */; };
+		3C11EB34240B88B500EDE379 /* JFMultiLevelCategoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11EB26240B88B400EDE379 /* JFMultiLevelCategoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C11EB90240B8A2C00EDE379 /* JFNestedCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11EB81240B8A2B00EDE379 /* JFNestedCollectionView.m */; };
+		3C11EB91240B8A2C00EDE379 /* JFCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11EB82240B8A2B00EDE379 /* JFCategoryViewController.h */; };
+		3C11EB92240B8A2C00EDE379 /* JFCategorySelectViewFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11EB83240B8A2B00EDE379 /* JFCategorySelectViewFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C11EB93240B8A2C00EDE379 /* JFMultiLevelCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11EB84240B8A2B00EDE379 /* JFMultiLevelCategoryView.m */; };
+		3C11EB94240B8A2C00EDE379 /* JFNestedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11EB85240B8A2B00EDE379 /* JFNestedScrollView.m */; };
+		3C11EB95240B8A2C00EDE379 /* JFCategorySelectViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11EB86240B8A2C00EDE379 /* JFCategorySelectViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C11EB96240B8A2C00EDE379 /* JFContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11EB87240B8A2C00EDE379 /* JFContentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C11EB97240B8A2C00EDE379 /* JFContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11EB88240B8A2C00EDE379 /* JFContentViewController.m */; };
+		3C11EB98240B8A2C00EDE379 /* JFLevelVMHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11EB89240B8A2C00EDE379 /* JFLevelVMHolder.m */; };
+		3C11EB99240B8A2C00EDE379 /* JFCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11EB8A240B8A2C00EDE379 /* JFCategoryViewController.m */; };
+		3C11EB9A240B8A2C00EDE379 /* JFLevelVMHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11EB8B240B8A2C00EDE379 /* JFLevelVMHolder.h */; };
+		3C11EB9B240B8A2C00EDE379 /* JFNestedCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11EB8C240B8A2C00EDE379 /* JFNestedCollectionView.h */; };
+		3C11EB9C240B8A2C00EDE379 /* JFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11EB8D240B8A2C00EDE379 /* JFCollectionViewCell.m */; };
+		3C11EB9D240B8A2C00EDE379 /* JFCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11EB8E240B8A2C00EDE379 /* JFCollectionViewCell.h */; };
+		3C11EB9E240B8A2C00EDE379 /* JFNestedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11EB8F240B8A2C00EDE379 /* JFNestedScrollView.h */; };
+		3C11EBA3240B8C4900EDE379 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C11EBA2240B8C4900EDE379 /* Masonry.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C11EB2E240B88B400EDE379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C11EB1A240B88B400EDE379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C11EB22240B88B400EDE379;
+			remoteInfo = JFMultiLevelCategoryView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C11EB23240B88B400EDE379 /* JFMultiLevelCategoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JFMultiLevelCategoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C11EB26240B88B400EDE379 /* JFMultiLevelCategoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFMultiLevelCategoryView.h; sourceTree = "<group>"; };
+		3C11EB27240B88B400EDE379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C11EB2C240B88B400EDE379 /* JFMultiLevelCategoryViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFMultiLevelCategoryViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C11EB31240B88B500EDE379 /* JFMultiLevelCategoryViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFMultiLevelCategoryViewTests.m; sourceTree = "<group>"; };
+		3C11EB33240B88B500EDE379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C11EB81240B8A2B00EDE379 /* JFNestedCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNestedCollectionView.m; sourceTree = "<group>"; };
+		3C11EB82240B8A2B00EDE379 /* JFCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCategoryViewController.h; sourceTree = "<group>"; };
+		3C11EB83240B8A2B00EDE379 /* JFCategorySelectViewFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCategorySelectViewFactoryProtocol.h; sourceTree = "<group>"; };
+		3C11EB84240B8A2B00EDE379 /* JFMultiLevelCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMultiLevelCategoryView.m; sourceTree = "<group>"; };
+		3C11EB85240B8A2B00EDE379 /* JFNestedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNestedScrollView.m; sourceTree = "<group>"; };
+		3C11EB86240B8A2C00EDE379 /* JFCategorySelectViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCategorySelectViewProtocol.h; sourceTree = "<group>"; };
+		3C11EB87240B8A2C00EDE379 /* JFContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFContentViewController.h; sourceTree = "<group>"; };
+		3C11EB88240B8A2C00EDE379 /* JFContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFContentViewController.m; sourceTree = "<group>"; };
+		3C11EB89240B8A2C00EDE379 /* JFLevelVMHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLevelVMHolder.m; sourceTree = "<group>"; };
+		3C11EB8A240B8A2C00EDE379 /* JFCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCategoryViewController.m; sourceTree = "<group>"; };
+		3C11EB8B240B8A2C00EDE379 /* JFLevelVMHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLevelVMHolder.h; sourceTree = "<group>"; };
+		3C11EB8C240B8A2C00EDE379 /* JFNestedCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNestedCollectionView.h; sourceTree = "<group>"; };
+		3C11EB8D240B8A2C00EDE379 /* JFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCollectionViewCell.m; sourceTree = "<group>"; };
+		3C11EB8E240B8A2C00EDE379 /* JFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCollectionViewCell.h; sourceTree = "<group>"; };
+		3C11EB8F240B8A2C00EDE379 /* JFNestedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNestedScrollView.h; sourceTree = "<group>"; };
+		3C11EBA2240B8C4900EDE379 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C11EB20240B88B400EDE379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C11EBA3240B8C4900EDE379 /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C11EB29240B88B400EDE379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C11EB2D240B88B400EDE379 /* JFMultiLevelCategoryView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C11EB19240B88B400EDE379 = {
+			isa = PBXGroup;
+			children = (
+				3C11EB25240B88B400EDE379 /* JFMultiLevelCategoryView */,
+				3C11EB30240B88B400EDE379 /* JFMultiLevelCategoryViewTests */,
+				3C11EB24240B88B400EDE379 /* Products */,
+				3C11EBA1240B8C4800EDE379 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C11EB24240B88B400EDE379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C11EB23240B88B400EDE379 /* JFMultiLevelCategoryView.framework */,
+				3C11EB2C240B88B400EDE379 /* JFMultiLevelCategoryViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C11EB25240B88B400EDE379 /* JFMultiLevelCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				3C11EB83240B8A2B00EDE379 /* JFCategorySelectViewFactoryProtocol.h */,
+				3C11EB86240B8A2C00EDE379 /* JFCategorySelectViewProtocol.h */,
+				3C11EB82240B8A2B00EDE379 /* JFCategoryViewController.h */,
+				3C11EB8A240B8A2C00EDE379 /* JFCategoryViewController.m */,
+				3C11EB8E240B8A2C00EDE379 /* JFCollectionViewCell.h */,
+				3C11EB8D240B8A2C00EDE379 /* JFCollectionViewCell.m */,
+				3C11EB87240B8A2C00EDE379 /* JFContentViewController.h */,
+				3C11EB88240B8A2C00EDE379 /* JFContentViewController.m */,
+				3C11EB8B240B8A2C00EDE379 /* JFLevelVMHolder.h */,
+				3C11EB89240B8A2C00EDE379 /* JFLevelVMHolder.m */,
+				3C11EB26240B88B400EDE379 /* JFMultiLevelCategoryView.h */,
+				3C11EB84240B8A2B00EDE379 /* JFMultiLevelCategoryView.m */,
+				3C11EB8C240B8A2C00EDE379 /* JFNestedCollectionView.h */,
+				3C11EB81240B8A2B00EDE379 /* JFNestedCollectionView.m */,
+				3C11EB8F240B8A2C00EDE379 /* JFNestedScrollView.h */,
+				3C11EB85240B8A2B00EDE379 /* JFNestedScrollView.m */,
+				3C11EB27240B88B400EDE379 /* Info.plist */,
+			);
+			path = JFMultiLevelCategoryView;
+			sourceTree = "<group>";
+		};
+		3C11EB30240B88B400EDE379 /* JFMultiLevelCategoryViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C11EB31240B88B500EDE379 /* JFMultiLevelCategoryViewTests.m */,
+				3C11EB33240B88B500EDE379 /* Info.plist */,
+			);
+			path = JFMultiLevelCategoryViewTests;
+			sourceTree = "<group>";
+		};
+		3C11EBA1240B8C4800EDE379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C11EBA2240B8C4900EDE379 /* Masonry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C11EB1E240B88B400EDE379 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C11EB92240B8A2C00EDE379 /* JFCategorySelectViewFactoryProtocol.h in Headers */,
+				3C11EB96240B8A2C00EDE379 /* JFContentViewController.h in Headers */,
+				3C11EB95240B8A2C00EDE379 /* JFCategorySelectViewProtocol.h in Headers */,
+				3C11EB9E240B8A2C00EDE379 /* JFNestedScrollView.h in Headers */,
+				3C11EB9A240B8A2C00EDE379 /* JFLevelVMHolder.h in Headers */,
+				3C11EB9D240B8A2C00EDE379 /* JFCollectionViewCell.h in Headers */,
+				3C11EB34240B88B500EDE379 /* JFMultiLevelCategoryView.h in Headers */,
+				3C11EB91240B8A2C00EDE379 /* JFCategoryViewController.h in Headers */,
+				3C11EB9B240B8A2C00EDE379 /* JFNestedCollectionView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C11EB22240B88B400EDE379 /* JFMultiLevelCategoryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C11EB37240B88B500EDE379 /* Build configuration list for PBXNativeTarget "JFMultiLevelCategoryView" */;
+			buildPhases = (
+				3C11EB1E240B88B400EDE379 /* Headers */,
+				3C11EB1F240B88B400EDE379 /* Sources */,
+				3C11EB20240B88B400EDE379 /* Frameworks */,
+				3C11EB21240B88B400EDE379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JFMultiLevelCategoryView;
+			productName = JFMultiLevelCategoryView;
+			productReference = 3C11EB23240B88B400EDE379 /* JFMultiLevelCategoryView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C11EB2B240B88B400EDE379 /* JFMultiLevelCategoryViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C11EB3A240B88B500EDE379 /* Build configuration list for PBXNativeTarget "JFMultiLevelCategoryViewTests" */;
+			buildPhases = (
+				3C11EB28240B88B400EDE379 /* Sources */,
+				3C11EB29240B88B400EDE379 /* Frameworks */,
+				3C11EB2A240B88B400EDE379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C11EB2F240B88B400EDE379 /* PBXTargetDependency */,
+			);
+			name = JFMultiLevelCategoryViewTests;
+			productName = JFMultiLevelCategoryViewTests;
+			productReference = 3C11EB2C240B88B400EDE379 /* JFMultiLevelCategoryViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C11EB1A240B88B400EDE379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = jumpingfish;
+				TargetAttributes = {
+					3C11EB22240B88B400EDE379 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3C11EB2B240B88B400EDE379 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C11EB1D240B88B400EDE379 /* Build configuration list for PBXProject "JFMultiLevelCategoryView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C11EB19240B88B400EDE379;
+			productRefGroup = 3C11EB24240B88B400EDE379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C11EB22240B88B400EDE379 /* JFMultiLevelCategoryView */,
+				3C11EB2B240B88B400EDE379 /* JFMultiLevelCategoryViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C11EB21240B88B400EDE379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C11EB2A240B88B400EDE379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C11EB1F240B88B400EDE379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C11EB99240B8A2C00EDE379 /* JFCategoryViewController.m in Sources */,
+				3C11EB9C240B8A2C00EDE379 /* JFCollectionViewCell.m in Sources */,
+				3C11EB98240B8A2C00EDE379 /* JFLevelVMHolder.m in Sources */,
+				3C11EB94240B8A2C00EDE379 /* JFNestedScrollView.m in Sources */,
+				3C11EB90240B8A2C00EDE379 /* JFNestedCollectionView.m in Sources */,
+				3C11EB97240B8A2C00EDE379 /* JFContentViewController.m in Sources */,
+				3C11EB93240B8A2C00EDE379 /* JFMultiLevelCategoryView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C11EB28240B88B400EDE379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C11EB32240B88B500EDE379 /* JFMultiLevelCategoryViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C11EB2F240B88B400EDE379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C11EB22240B88B400EDE379 /* JFMultiLevelCategoryView */;
+			targetProxy = 3C11EB2E240B88B400EDE379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C11EB35240B88B500EDE379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C11EB36240B88B500EDE379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C11EB38240B88B500EDE379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L63KYTQZV8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = JFMultiLevelCategoryView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumpingfish.JFMultiLevelCategoryView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C11EB39240B88B500EDE379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L63KYTQZV8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = JFMultiLevelCategoryView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumpingfish.JFMultiLevelCategoryView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C11EB3B240B88B500EDE379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63KYTQZV8;
+				INFOPLIST_FILE = JFMultiLevelCategoryViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumpingfish.JFMultiLevelCategoryViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C11EB3C240B88B500EDE379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63KYTQZV8;
+				INFOPLIST_FILE = JFMultiLevelCategoryViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumpingfish.JFMultiLevelCategoryViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C11EB1D240B88B400EDE379 /* Build configuration list for PBXProject "JFMultiLevelCategoryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C11EB35240B88B500EDE379 /* Debug */,
+				3C11EB36240B88B500EDE379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C11EB37240B88B500EDE379 /* Build configuration list for PBXNativeTarget "JFMultiLevelCategoryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C11EB38240B88B500EDE379 /* Debug */,
+				3C11EB39240B88B500EDE379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C11EB3A240B88B500EDE379 /* Build configuration list for PBXNativeTarget "JFMultiLevelCategoryViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C11EB3B240B88B500EDE379 /* Debug */,
+				3C11EB3C240B88B500EDE379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C11EB1A240B88B400EDE379 /* Project object */;
+}
