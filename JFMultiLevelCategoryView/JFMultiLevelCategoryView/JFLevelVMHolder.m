@@ -23,6 +23,11 @@
 
 @implementation JFLevelVMHolder
 
+- (void)dealloc
+{
+    [self recycleController];
+}
+
 - (id)init {
     if (self = [super init]) {
         _state = JFLevelVMHolderInitState;
@@ -40,7 +45,7 @@
     _state = JFLevelVMHolderInitState;
 
     if (self.superView) {
-        [self unloadController];
+        [self recycleController];
 
         [self load];
     }
@@ -65,7 +70,7 @@
 
 - (void)removeFromSuperview
 {
-    [self unloadController];
+    [self recycleController];
 
     _superView = nil;
 }
@@ -192,19 +197,6 @@
             [self.categoryViewController updateView];
         }
     }
-}
-
-- (void)unloadController
-{
-    if (self.contentViewController) {
-        [self.contentViewController.view removeFromSuperview];
-    }
-    else {
-        [self.categoryViewController.view removeFromSuperview];
-        self.categoryViewController.holders = nil;
-    }
-
-    [self recycleController];
 }
 
 - (void)loadErrorController
